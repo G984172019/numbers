@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>数字早押しゲーム</title>
+    <link rel="stylesheet" href="css/game.css">
+  </head>
+  <body>
+  <script src="js/ncmb.min.js"></script>
+    <h1>数字早押しゲーム！</h1>
+    <h1 id="countT" class="countT">--</h1>
+    <div class="score">
+        Time:
+        <span id="time">0</span>
+    </div>
+    <button id="rankButton" class="rankButton" onclick="toRanking()">ランキングを見る</button>
+    <br>
+    <button id="startButton" type="button" onclick="init()">ゲーム開始</button>
+    <br>
+    <button id="restartButton" type="button" onclick="re()">もう一回</button>
+    <div id="cells">
+    <table id="num" border="1" >
+      <tr>
+        <td id = "num1" onclick="tap()"></td>
+        <td id = "num2" onclick="tap()"></td>
+        <td id = "num3" onclick="tap()"></td>
+        <td id = "num4" onclick="tap()"></td>
+        <td id = "num5" onclick="tap()"></td>
+      </tr>
+      <tr>
+        <td id = "num6" onclick="tap()"></td>
+        <td id = "num7" onclick="tap()"></td>
+        <td id = "num8" onclick="tap()"></td>
+        <td id = "num9" onclick="tap()"></td>
+        <td id = "num10" onclick="tap()"></td>
+      </tr>
+      <tr>
+        <td id = "num11" onclick="tap()"></td>
+        <td id = "num12" onclick="tap()"></td>
+        <td id = "num13" onclick="tap()"></td>
+        <td id = "num14" onclick="tap()"></td>
+        <td id = "num15" onclick="tap()"></td>
+      </tr>
+      <tr>
+        <td id = "num16" onclick="tap()"></td>
+        <td id = "num17" onclick="tap()"></td>
+        <td id = "num18" onclick="tap()"></td>
+        <td id = "num19" onclick="tap()"></td>
+        <td id = "num20" onclick="tap()"></td>
+      </tr>
+      <tr>
+        <td id = "num21" onclick="tap()"></td>
+        <td id = "num22" onclick="tap()"></td>
+        <td id = "num23" onclick="tap()"></td>
+        <td id = "num24" onclick="tap()"></td>
+        <td id = "num25" onclick="tap()"></td>
+      </tr>
+    </table>
+    </div>
+    <!-- ランキング画面 -->
+      <div id="ranking">
+        <button onclick="toMain()">戻る</button>
+        <div class="title">
+          ランキング
+        </div>
+        <table id="rankingTable" border="1">
+          <tr>
+            <td class="rank">１位</td>
+            <td class="name" id= "name_1">no data</td>
+            <td id= "score_1">-</td>
+          </tr>
+          <tr>
+            <td class="rank">２位</td>
+            <td class="name" id = "name_2">no data</td>
+            <td id = "score_2">-</td>
+          </tr>
+          <tr>
+            <td class="rank">３位</td>
+            <td class="name" id = "name_3">no data</td>
+            <td id = "score_3">-</td>
+          </tr>
+          <tr>
+            <td class="rank">４位</td>
+            <td class="name" id = "name_4">no data</td>
+            <td id = "score_4">-</td>
+          </tr>
+          <tr>
+            <td class="rank">５位</td>
+            <td class="name" id = "name_5">no data</td>
+            <td id = "score_5">-</td>
+          </tr>
+        </table>
+    <script src="js/init.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>
