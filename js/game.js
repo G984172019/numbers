@@ -78,7 +78,7 @@ let ok = 1;
     let text = event.target.innerHTML;
 
     if(text == ok){
-      Correct.play();
+      correct.play();
        // alert("ok");
       ok = ok + 1;
       if (ok == 26){
@@ -91,7 +91,7 @@ let ok = 1;
       //ここまで
     }
     }else{
-      Wrong.play();
+      wrong.play();
        alert("数字が違います!!")
     }
   }
