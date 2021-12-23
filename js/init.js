@@ -6,5 +6,5 @@ const restartButton = document.getElementById("restartButton");
 const rankButton = document.getElementById("rankButton");
 const ranking = document.getElementById("ranking");
 let start = new Date();
-const correct = new Audio('sound/correct.mp3');
-const wrong = new Audio('sound/wrong.mp3');
+const correct = new Audio('sound/Correct.mp3');
+const wrong = new Audio('sound/Wrong.mp3');
