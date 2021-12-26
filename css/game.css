@@ -12,8 +12,8 @@ td {
   color: blue;
   width: 180px;
   height: 180px;
-  border-radius: 9px;
-  font-size: x-large;
+  border-radius: 18px;
+  font-size: 100px;
 }
 td:hover {
   color: green;
@@ -29,7 +29,7 @@ h1 {
 button {
   width: 180px;
   height: 40px;
-  border-radius:10%;
+  border-radius:100%;
 }
 #time {
   font-size: 100px;
