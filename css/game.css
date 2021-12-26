@@ -2,6 +2,7 @@ body {
     background-color: skyblue;
 }
 table{
+  border: 5px;
   margin: 0 auto;
   border-color: blue;
   border-radius: 6px;
