@@ -29,6 +29,7 @@ h1 {
   font-size: 100px;
 }
 button {
+  margin: 0 auto;
   text-align: center;
   width: 720px;
   height:180px;
