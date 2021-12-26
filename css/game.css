@@ -4,7 +4,7 @@ body {
 table{
   margin: 0 auto;
   border-color: blue;
-  border-radius: 6px;
+  border-radius: 30px;
   background-color: white;
   border-width: 5px;
 }
@@ -14,7 +14,7 @@ td {
   width: 180px;
   height: 180px;
   border-width: 5px;
-  border-radius: 6px;
+  border-radius: 30px;
   font-size: x-large;
 }
 td:hover {
@@ -31,7 +31,7 @@ h1 {
 button {
   width: 180px;
   height: 60px;
-  border-radius:100%;
+  border-radius:30px;
   font-size: x-large;
 }
 .score {
