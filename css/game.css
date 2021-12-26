@@ -31,6 +31,6 @@ button {
   height: 40px;
   border-radius:100%;
 }
-#time {
+.score {
   font-size: 100px;
 }
