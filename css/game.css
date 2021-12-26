@@ -2,19 +2,20 @@ body {
     background-color: skyblue;
 }
 table{
-  border: 5px;
   margin: 0 auto;
   border-color: blue;
   border-radius: 6px;
   background-color: white;
+  border-width: 5px;
 }
 td {
   text-align: center;
   color: blue;
   width: 180px;
   height: 180px;
-  border-radius: 18px;
-  font-size: 100px;
+  border-width: 5px;
+  border-radius: 6px;
+  font-size: x-large;
 }
 td:hover {
   color: green;
