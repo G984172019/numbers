@@ -11,9 +11,11 @@ ranking.style.display = "none";
 rankButton.style.display = "none";
 restartButton.style.display = "none";
 countT.style.display = "none";
+cells.style.display = "none";
 
 function init() {
     startButton.style.display = "none";
+    cells.style.display = "block";
   if (timer == null) {
     start = new Date();
     time();
@@ -88,6 +90,7 @@ let ok = 1;
         restartButton.style.display = "block";
         rankButton.style.display = "block";
         countT.style.display = "block";
+        cells.style.display = "none";
       //ここまで
     }
     }else{
