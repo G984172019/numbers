@@ -15,7 +15,7 @@ td {
   height: 180px;
   border-width: 5px;
   border-radius: 30px;
-  font-size: x-large;
+  font-size: 100px;
 }
 td:hover {
   color: green;
