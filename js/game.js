@@ -157,7 +157,7 @@ let ok = 1;
     rankButton.style.display = "block";
 
     // ゲーム画面を表示
-    cells.style.display = "block";
+    //cells.style.display = "block";
 
     //reスタートボタンを表示
     restartButton.style.display = "block";
