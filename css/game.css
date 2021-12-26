@@ -12,8 +12,8 @@ td {
   color: blue;
   width: 180px;
   height: 180px;
-  border-radius: 6px;
-  font-size: large;
+  border-radius: 9px;
+  font-size: x-large;
 }
 td:hover {
   color: green;
@@ -24,4 +24,5 @@ input {
 }
 h1 {
   text-align: center;
+  font-size: 100px;
 }
