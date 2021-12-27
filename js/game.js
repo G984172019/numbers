@@ -111,7 +111,7 @@ let ok = 1;
     // 結果画面を非表示
     countT.style.display = "none";
     //
-    timer.style.display = "none";
+    timers.style.display = "none";
 
     // データ取得
     checkRanking();
@@ -173,7 +173,7 @@ let ok = 1;
     countT.style.display = "block";
       
     //
-    timer.style.display = "block";
+    timers.style.display = "block";
 
   }
 
