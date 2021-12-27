@@ -110,6 +110,8 @@ let ok = 1;
     ranking.style.display = "block";
     // 結果画面を非表示
     countT.style.display = "none";
+    //
+    timer.style.display = "none";
 
     // データ取得
     checkRanking();
@@ -169,6 +171,9 @@ let ok = 1;
       
     // 結果画面を表示
     countT.style.display = "block";
+      
+    //
+    timer.style.display = "block";
 
   }
 
