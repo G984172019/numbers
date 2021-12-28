@@ -107,7 +107,7 @@ let ok = 1;
     //reスタートボタンを非表示
     restartButton.style.display = "none";
     // ランキングを表示
-    ranking.style.display = "block";
+    ranking.style.display = "inline-block";
     // 結果画面を非表示
     countT.style.display = "none";
     //
