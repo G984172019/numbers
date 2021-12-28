@@ -158,13 +158,13 @@ let ok = 1;
 
   function toMain() {
     // ランキング表示ボタンを表示
-    rankButton.style.display = "block";
+    rankButton.style.display = "inline-block";
 
     // ゲーム画面を表示
     //cells.style.display = "block";
 
     //reスタートボタンを表示
-    restartButton.style.display = "block";
+    restartButton.style.display = "inline-block";
 
     // ランキングを非表示
     ranking.style.display = "none";
